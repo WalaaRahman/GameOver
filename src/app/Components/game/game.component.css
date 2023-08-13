@@ -1,0 +1,48 @@
+
+.card{
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #32383e;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.6);
+    border-radius: 0.25rem;
+    transition: all 0.4s;
+    cursor: pointer;
+    height: 320px;
+}
+.title-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.card:hover{
+    transform:scale(1.03) ;
+}
+.card-img-top {
+    border-radius: 0px;
+}
+.bg-blue{
+    background-color: #49acff;
+    color: #fff;
+}
+
+.footer{
+    border-top: none ;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px
+}
+.shooter{
+    display: flex;
+}
+.shooter-badge{
+    background-color: #aaa;
+    border-radius: 12px;
+    margin-right: 8px;
+}
+
+.windows{
+    font-size: 25px;
+}

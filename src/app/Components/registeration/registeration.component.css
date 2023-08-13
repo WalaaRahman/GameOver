@@ -1,0 +1,33 @@
+.graybg{
+    background-color: #32383e;
+}
+
+.register-img-holder{
+    background:url(../../../assets/images/gaming.ebaf2ffc84f4451d.jpg);
+    background-position: cover;
+    background-size: 100% 100%;
+}
+.form-side-content ,
+.formH1{
+    color: rgb(255 255 255 / 55%);
+}
+.formGroup{
+    margin-bottom: 1rem;
+}
+
+.deep-dark {
+    background-color: #1c1e22;
+    border: 0 solid rgba(0,0,0,.6);
+    border-radius: 5px;
+}
+input {
+    color: #fff!important;
+}
+
+.submit-btn{
+    background-color: #3a3f44;
+    border-color: #22241d;
+}
+.login-link{
+    text-decoration: none;
+}

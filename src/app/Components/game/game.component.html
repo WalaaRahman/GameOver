@@ -1,0 +1,22 @@
+
+
+<div class="card mb-4">
+    <img class="card-img-top" [src]='game.thumbnail' alt="Card image cap">
+    <div class="card-body" [routerLink]="'/game/'+game.id">
+        <div class="title-btn">
+            
+            <h5 class="card-title">{{game.title.split(" ").splice(0,1).join(" ")}}</h5>
+            <span class="badge bg-blue p-2">Free</span>
+        </div>
+        <p class="gameDescription">
+            {{game.short_description.split(" ").splice(0,4).join(" ")}}
+        </p>
+    </div>
+    <div class="footer">
+       <div class="plus-icon"><i class="fa-solid fa-square-plus"></i></div>
+    <div class="shooter">
+        <span class="badge shooter-badge">{{game.genre}}</span>
+        <i class="fa-brands fa-windows windows"></i>
+    </div>
+    </div>
+</div>

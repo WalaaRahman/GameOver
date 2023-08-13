@@ -1,0 +1,57 @@
+
+
+
+.home-header{
+    background-image: url('../../../assets/images/home_header.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1c1e22;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(0,0,0,.6);
+    padding: 4rem 2rem;
+}
+.highlight-text{
+    color: #49acff!important;
+}
+.browseGamesBtn{
+    color:#6c757d;
+    border:1px solid;
+    border-color:#6c757d;
+    border-radius: 12px;
+    text-decoration: none;
+    padding:0.5rem 1rem ;
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+    transition:all 0.5s ;
+
+}
+
+.browseGamesBtn:hover {
+
+
+ color: #fff;
+ background-color:#6c757d;
+ border-color:#6c757d;
+}
+
+.card{
+    background-color: #32383e;
+    transition:all 0.2s;
+}
+
+.card-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.badge{
+    color: #fff;
+    background-color: #4799eb
+}
+
+.card:hover{
+    transform: scale(1.03) ;
+}

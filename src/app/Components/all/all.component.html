@@ -1,0 +1,12 @@
+<section class="home-content">
+    <div class="container my-5">
+    
+
+        <div class="row" *ngIf="allGames">
+            <div *ngFor="let game of allGames" class="col-md-3">
+                <app-game [game]="game" [routerLink]="'/game/'+game.id"></app-game>
+                
+            </div>
+        </div>
+    </div>
+</section>

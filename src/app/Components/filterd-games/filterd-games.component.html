@@ -1,0 +1,12 @@
+<section class="home-content">
+    <div class="container my-5">
+    
+<h1 class="mb-5">{{tag}}: {{filter}}</h1>
+        <div class="row" *ngIf="filteredGamed">
+            <div *ngFor="let game of filteredGamed" class="col-md-3">
+                <app-game [game]="game" [routerLink]="'/game/'+game.id"></app-game>
+                
+            </div>
+        </div>
+    </div>
+</section>
